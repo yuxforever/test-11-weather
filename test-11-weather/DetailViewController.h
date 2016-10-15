@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataModel.h"
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic)DataModel *detailDataModel;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+-(void)setDetailItem:(DataModel*)newDetailItem;
 
 @end
 

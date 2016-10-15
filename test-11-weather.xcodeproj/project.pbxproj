@@ -14,6 +14,8 @@
 		AAEC50DC1D358F9900EEBB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC50DA1D358F9900EEBB4D /* Main.storyboard */; };
 		AAEC50DE1D358F9900EEBB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAEC50DD1D358F9900EEBB4D /* Assets.xcassets */; };
 		AAEC50E11D358F9900EEBB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAEC50DF1D358F9900EEBB4D /* LaunchScreen.storyboard */; };
+		AAEC510A1D367D7000EEBB4D /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEC51091D367D7000EEBB4D /* DataModel.m */; };
+		AAEC510D1D3697DB00EEBB4D /* weatherApi.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEC510C1D3697DB00EEBB4D /* weatherApi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		AAEC50DD1D358F9900EEBB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEC50E01D358F9900EEBB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAEC50E21D358F9900EEBB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEC51081D367D7000EEBB4D /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		AAEC51091D367D7000EEBB4D /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		AAEC510B1D3697DB00EEBB4D /* weatherApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherApi.h; sourceTree = "<group>"; };
+		AAEC510C1D3697DB00EEBB4D /* weatherApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherApi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +71,12 @@
 				AAEC50D21D358F9900EEBB4D /* AppDelegate.m */,
 				AAEC50D41D358F9900EEBB4D /* MasterViewController.h */,
 				AAEC50D51D358F9900EEBB4D /* MasterViewController.m */,
+				AAEC51081D367D7000EEBB4D /* DataModel.h */,
+				AAEC51091D367D7000EEBB4D /* DataModel.m */,
 				AAEC50D71D358F9900EEBB4D /* DetailViewController.h */,
 				AAEC50D81D358F9900EEBB4D /* DetailViewController.m */,
+				AAEC510B1D3697DB00EEBB4D /* weatherApi.h */,
+				AAEC510C1D3697DB00EEBB4D /* weatherApi.m */,
 				AAEC50DA1D358F9900EEBB4D /* Main.storyboard */,
 				AAEC50DD1D358F9900EEBB4D /* Assets.xcassets */,
 				AAEC50DF1D358F9900EEBB4D /* LaunchScreen.storyboard */,
@@ -155,9 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAEC50D31D358F9900EEBB4D /* AppDelegate.m in Sources */,
+				AAEC510A1D367D7000EEBB4D /* DataModel.m in Sources */,
 				AAEC50D61D358F9900EEBB4D /* MasterViewController.m in Sources */,
 				AAEC50D01D358F9900EEBB4D /* main.m in Sources */,
 				AAEC50D91D358F9900EEBB4D /* DetailViewController.m in Sources */,
+				AAEC510D1D3697DB00EEBB4D /* weatherApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
